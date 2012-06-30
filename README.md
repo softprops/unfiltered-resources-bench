@@ -4,9 +4,9 @@ some scripts and sample servers for benchmarking unfiltered static resource serv
 
 # setup
 
-update deps
+if testing jar'r resources, jar up your deps with
 
-    sbt update
+    sbt assembly
 
 install tooling
 
